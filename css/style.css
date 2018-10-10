@@ -1,0 +1,77 @@
+body {
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: playfair-display;
+    font-size: 100px; 
+    font-weight: bold;
+    color: white;
+
+    text-align: center;
+
+    margin: 0 auto;
+    
+    position: relative;
+    left: center;
+    top: 530px;
+}
+
+div {
+   text-align: center;
+
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.parallax {
+    background-image: url("http://photos.vanityfair.com/2015/07/17/55a91cddfff2c16856a6d982_week-in-fashion-gal-gadot-gucci.jpg");
+    
+    min-height: 600px; 
+    
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    font-family: playfair-display;
+}
+
+.main {
+    font-family:avenir-light;
+    font-size:15px;
+
+    width:500px;
+
+    padding: 0px;
+}
+
+br {
+    line-height:30px;
+}
+
+a {
+    color:#63008c;
+    
+    text-decoration:none;
+}
+
+#second {
+    min-height: 400px;
+} 
+
+li {
+    line-height: 23px;
+}
+
+.button {
+    font-family:avenir-light;
+    font-size:15px;
+
+    border: 1px solid black;
+    border-radius: 4px;
+    
+    padding: 16px;
+}
