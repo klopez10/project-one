@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    margin-top: -70px;
 }
 
 h1 {
@@ -7,14 +8,14 @@ h1 {
     font-size: 100px; 
     font-weight: bold;
     color: white;
-
+    text-transform: uppercase;
     text-align: center;
 
     margin: 0 auto;
-    
+
     position: relative;
     left: center;
-    top: 530px;
+    top: 630px;
 }
 
 div {
@@ -27,8 +28,7 @@ div {
 .parallax {
     background-image: url("http://photos.vanityfair.com/2015/07/17/55a91cddfff2c16856a6d982_week-in-fashion-gal-gadot-gucci.jpg");
     
-    min-height: 600px; 
-    
+    min-height: 700px;
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -37,19 +37,16 @@ div {
 
 h2 {
     font-family: playfair-display;
+    text-transform: uppercase;
 }
 
-.main {
+.content {
     font-family:avenir-light;
     font-size:15px;
 
     width:500px;
 
     padding: 0px;
-}
-
-br {
-    line-height:30px;
 }
 
 a {
@@ -59,8 +56,12 @@ a {
 }
 
 #second {
-    min-height: 400px;
+    min-height: 450px;
 } 
+
+.spacing {
+    margin-bottom: 60px;
+}
 
 li {
     line-height: 23px;
